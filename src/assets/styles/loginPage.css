@@ -1,0 +1,51 @@
+.error-message-container {
+  height: 21px;
+  color: #f72d2d;
+  padding-left: 15px;
+}
+
+.ion-page{
+  height: 100vh;
+}
+
+.logo {
+  width: 189.05px;
+  height: 48px;
+  left: 85px;
+  top: 48px;
+  margin-bottom: 41px;
+  margin-top: 48px;
+}
+
+.labelcheckbox {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: -15px;
+  margin-top: 71px;
+  --border-color: none;
+  --inner-border-width: 0;
+}
+
+.checkbox  {
+  margin-right: 9px;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  left: 1px;
+}
+
+.checkbox-checked {
+  background-color: #21355B;  ;
+}
+
+.buttonLogin {
+ margin-top: 24px;
+ height: 48px!important;
+ border-radius: 4px!important;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 1.25px;
+}
+

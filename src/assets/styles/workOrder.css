@@ -1,0 +1,381 @@
+/* Seccion Tarea por Lote */
+.iconBackTask {
+    padding-left: 21px;
+}
+.titleTask {
+    opacity: 0.9;
+    margin: 0px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px;
+}
+.contentTask {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.cardTask {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.ionContentTask {
+    padding-right: 0;
+    padding-left: 0;
+}
+.gridTask { 
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.itemTask {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+}
+  
+.itemTask small {
+    margin-top: .5rem;
+}
+.colTask{
+    color: #2D4D82;
+}
+.sc-ion-searchbar-md-h {
+    padding: 0px;
+}
+.searchbar-search-icon.sc-ion-searchbar-md {
+    color: #2D4D82;
+    width: 24px ;
+    height: 24px ;
+}
+.cardSyncTask {
+    border-radius: 12px;
+    /* height: 160px; */
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    margin-bottom: 16px;
+}
+.ordenTrabajoCardSyncTask {
+    border-radius: 12px;
+    /* height: 220px; */
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    margin-bottom: 16px;
+}
+.orderIsChecked{
+    border: 1.5px solid #1E5B96!important;
+}
+.headerTask {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.contentCardOrder {
+    padding-left: 12px;
+    /* padding-right: 0; */
+}
+.calendarTask, .syncTask {
+    display: flex;
+    align-items: center;
+}
+.labelTask{
+    margin-left: 9px;
+}
+.iconSinc {
+    align-self: center;
+}
+.iconSinc2 {
+    align-self: center;
+    font-size: 16px;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+.textTask {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;  
+    padding-bottom: 8px;
+}
+.btnTasksNext {
+    height: 48px;
+    margin-bottom: 0px;
+}
+.btnTasksCancel {
+    border-radius: 4px;
+    border: 1.5px solid #2D4D82;
+    height: 48px;
+    margin-top: 0px;
+}
+.cardEmployee, .cardMachinery, .cardSupplie, .cardAssinment{
+    border-radius: 12px;
+    height: auto;
+    width: auto;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.btnAddTasks {
+    height: 40px;
+}
+.cardMachinerySupplie {
+    background-color: rgba(52, 152, 253, 0.16);
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 88%;
+    top: 5.5px;
+}
+.colMachineSuplie {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ContentResume {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    bottom: -20px;
+}
+.ContentResume1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: -20px;
+}
+.labelSegmentTasks {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.gridCardTasks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 0;
+}
+/* .iconCardLeftTask {
+    text-align: start;
+    width: 50%;
+    padding-left: 45px;
+    padding-top: 25px;
+} */
+/* .iconCardRigthTask {
+    text-align: start;
+    width: 50%;
+    padding-right: -16px;
+    padding-top: 25px;
+} */
+.ordenTrabajoIconCardLeftTask {
+    text-align: start;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.ordenTrabajoIconCardRigthTask {
+    text-align: start;
+    width: 50%;
+    padding-right: -16px;
+    padding-top: 15px;
+}
+.h2Tasks {
+    color: #2D4D82;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.pencilResume, .colResumeCards, .h2Tasks {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.radioTasks {
+    margin-right: 13px;
+    margin-left: 0px;
+}
+.rowRadios {
+   left: -11px;
+}
+.rowRadioGroup {
+    left: 12px;
+}
+
+/* Seccion Orden de Trabajo */
+.cardSyncOrder {
+    border-radius: 12px;
+    height: 208px;
+  }
+  .btnWorkOrder {
+    height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .colBtnWorkOrder {
+    margin-bottom: 16px;
+    margin-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+  .contentCardWorkOrder {
+    padding-left: 12px;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .textCampain {
+    font-family: Roboto;
+    color: rgba(14, 24, 48, 0.48);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;  
+    padding-bottom: 0px;
+    text-transform: uppercase;
+  }
+.contentHelp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 12px;
+    position: static;
+    margin-top: 10px;
+    background: rgba(175, 191, 206, 0.16);
+    border-radius: 4px;
+}
+.textHelpSync {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    color: rgba(14, 24, 48, 0.8);
+}
+.iconCloseHelp {
+    font-size: 20px;
+    color: rgb(14, 24, 48, 0.8);
+    position: absolute;
+    left: 70%;
+    top: -8px;
+
+}
+.content-cards-tasks{
+    background-color: #F0F0F0!important;
+    min-height: 70vh!important;
+}
+.content-cards-not-found{
+    background-color: #F0F0F0!important;
+    height: 100vh!important;
+    display: flex;
+    flex-direction: column;
+}
+.btnSyncCardOT{
+    width: 100%;
+    height: 32px;    
+    padding: 0px;;
+}
+.syncronized {
+    display: flex;
+    color: #4CAF50;
+    align-items: center;
+}
+.notSyncronized {
+    display: flex;
+    color: #FBA01C;
+    align-items: center;
+}
+.syncronizedIcon {
+    width: 16px;
+    height: 16px;
+    margin: 0px 6px;
+    margin: 0px 8px;
+}
+.syncronizedText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.textCampania{
+    color: rgba(14, 24, 48, 0.48);
+    text-transform: uppercase;
+    letter-spacing:1.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px; 
+    line-height: 16px;
+}
+.textCardOT{
+    font-family: 'Roboto';
+    color: #0E1830!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    padding-bottom: 8px;
+}
+.textCardOT > small{
+    font-size: 12px !important;
+    color:#0E1830!important;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.ordenTrabajoCardCheckBox{
+    --border-color: #2D4D82!important;
+    --background-checked: #1E5B96;
+}
+.ordenTrabajoCardCheckBoxUnchecked{
+    --border-color: #2D4D82!important;
+}
+.ordenTrabajoCardCheckBoxChecked{
+    background-color:  #1E5B96;
+    border-color: #1E5B96!important;
+}
+.ordenTrabajoLabelTask{
+    margin-left: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.ordenTrabajoLabelTaskUnchecked{
+    color: rgba(14, 24, 48, 0.48);
+}
+.ordenTrabajoLabelTaskChecked{
+    color: #1E5B96;
+}
+.searchBox{
+    color: rgba(14, 24, 48, 0.5);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 8px 4px;
+    height: 88px;
+}
+.ordenTrabajoSearchBar{
+    box-shadow: 0px 2px 8px rgba(70, 70, 70, 0.05), 0px 1px 4px rgba(70, 70, 70, 0.1), 2px -3px 4px rgba(0, 0, 0, 0.02), 4px 3px 6px rgba(0, 48, 97, 0.03)!important;
+    border-radius: 4px!important;
+}
+.contentTask {
+    background-color: #F0F0F0!important;
+}

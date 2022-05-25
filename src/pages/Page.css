@@ -1,0 +1,9 @@
+form{
+    padding: 1rem;
+}
+.button-modal {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}

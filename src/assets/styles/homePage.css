@@ -1,0 +1,318 @@
+.cardComp {  
+  height: auto;
+  border-radius: 12px;
+  /* margin: 16px; */
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 96px!important;
+  /* width: 328px!important;
+  margin: 16px auto!important;   */
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.02), 4px 4px 6px rgba(0, 48, 97, 0.03);
+}
+.cardComp2 {
+  border-radius: 12px;
+  height: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.02), 4px 4px 6px rgba(0, 48, 97, 0.03);
+}
+.cardComp3 {
+  border-radius: 12px;
+  height: 328px;
+  /* margin: 16px; */
+  margin-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.02), 4px 4px 6px rgba(0, 48, 97, 0.03);
+}
+.cardCont0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.link-disabled .pCard1{
+  color: rgba(0, 0, 0,0.3)!important;
+}
+.link-disabled .logoCard{
+  filter: sepia(71%) saturate(856%) hue-rotate(176deg)
+    brightness(83%) contrast(87%) opacity(30%) !important;
+}
+.pCard1 {
+  font-size: 12px !important;
+  /* width: 100%;
+  height: 32px;
+  color: rgba(14, 24, 48, 0.8); */
+  letter-spacing: 0.4px;
+}
+.pCard2 {
+  font-size: 12px !important;
+  color: #0E1830!important;
+  letter-spacing: 0.4px!important;
+
+}
+.text-btn-sync {
+  font-size: 14px !important;
+  color: #FFF!important;
+  letter-spacing: 0.4px!important;
+
+}
+.pCard3 {
+  font-size: 12px !important;
+  letter-spacing: 0.4px!important;
+}
+.iconSinc {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.cardCont1 {
+  padding-bottom: 0px;
+}
+.cardCont2 {
+  text-align: right;
+  padding-bottom: 0px;
+}
+.icon-question{
+  width: 16px!important;
+  height: 16px!important;
+}
+.cardCont3 {
+  padding-bottom: 0px;
+}
+.rowCard1 {
+  padding-top: 16px;
+}
+.rowCard2 {
+  padding-top: 3px;
+}
+.rowCard3 {
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 24px;
+}
+
+.cardCont3 {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.btnCard {
+  height: 48px;
+  border-radius: 4px;
+}
+.btn-sync{
+  height: 48px!important;
+}
+
+.contentCard {
+  margin-top: 0px;
+}
+
+.logoCard {
+  width: 24px;
+  height: 24px;
+  left: 11.9%;
+  right: 11.9%;
+  top: 0%;
+  bottom: 0%;
+  filter: invert(43%) sepia(71%) saturate(856%) hue-rotate(176deg)
+    brightness(83%) contrast(87%);
+}
+.colCard {
+  padding: 0px !important;
+}
+.homeSegment {
+  background: #2d4d82;
+}
+.homeSegment a .segment-home-selected{
+  color: #ffffff;
+}
+.homeSegment a .segment-home{
+  color: rgba(255, 255, 255, 0.4);
+}
+.colorSegment {
+  color: #fff;
+}
+.iconNotif {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.iconNotifInternet {
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.titleLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ionLogoTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 24px;
+}
+.col1 {
+  border-top: none;
+  border-left: none;
+  border-right: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-bottom: 0.5px solid rgba(14, 24, 48, 0.1);
+}
+.col2 {
+  border-top: none;
+  border-left: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-right: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-bottom: 0.5px solid rgba(14, 24, 48, 0.1);
+}
+.col3 {
+  border-top: none;
+  border-left: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-right: none;
+  border-bottom: 0.5px solid rgba(14, 24, 48, 0.1);
+}
+.col4 {
+  border-top: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-left: none;
+  border-right: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-bottom: none;
+}
+.col5 {
+  border-top: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-left: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-right: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-bottom: none;
+}
+.col6 {
+  border-top: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-left: 0.5px solid rgba(14, 24, 48, 0.1);
+  border-right: none;
+  border-bottom: none;
+}
+.clima {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 12px;
+}
+.colorSegmentDelete {
+  color: rgb(0, 0, 0);
+}
+.AlertNoInternet {
+  width: 100%;
+  height: 56px;
+  background: rgba(254, 212, 86, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 14px 12px;
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 7px 9px rgba(0,0,0,0.02);
+}
+.textAlertNoI {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0.1px;
+  color: rgba(14, 24, 48, 0.8);
+  margin-top: 3px;
+}
+.colIconAlert {
+  display: flex;
+  justify-content: center;
+}
+.iconAlertNoI {
+  height: 28px;
+  width: 28px;
+  color: #2D4D82;
+  margin-right: 10px;
+}
+.iconCancelAlertNoI {
+  font-size: 16px;
+  position: absolute;
+  bottom: 100%;
+}
+.btn-nav{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 24px;
+}
+.text-home-tabs{
+  text-transform: capitalize!important;
+}
+.content-home{
+  background-color: #F0F0F0!important;
+  min-height: 80vh!important;
+}
+.modalBox {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.executeModal {
+  width: 90%;
+  height: 385px;
+  top: 20%;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  background: #FFFFFF;
+}
+.executeContent {
+  padding: 48px 24px;
+}
+.boxIcon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.executeIcon {
+  width: 72px;
+  height: 72px;
+  margin: 36px 0px 24px 0px;
+  color: rgba(254, 212, 86, 0.4);
+}
+.executeTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0E1830;
+  letter-spacing: 0.15px;
+  margin-bottom: 48px;
+}
+.executeSubtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(14, 24, 48, 0.8);
+  margin: 0;
+}
+.boxButtons {
+  height: 32px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  margin: 48px 32px 0px 32px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.executeCancelButtom { 
+  background-color: #FFFFFF!important;
+  color: #2D4D82;
+  border: none;
+  box-shadow: none;
+}
